@@ -1,0 +1,109 @@
+.pricingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 1240px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.pricingTitle {
+  width: 616px;
+  height: 121px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.pricingBox {
+  display: flex;
+  gap: 20px;
+}
+
+.pricingCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 273px;
+  height: 400px;
+  background: #ffffff;
+  border: 1.03826px solid rgba(1, 128, 179, 0.3);
+  border-radius: 10.3826px;
+}
+
+.pricingCardTitle {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 26px;
+  color: #252525;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.price {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.priceNumber {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 26px;
+}
+
+.pricingtext {
+  width: 238px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.667972px;
+  color: #848484;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.priceDescBox {
+  position: absolute;
+  bottom: 40px;
+  height: 121.48px;
+  background: #f4f6f8;
+}
+
+.priceDesc {
+  padding-top: 7px;
+  padding-left: 20px;
+}
+
+.priceDesc p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.priceDesc button {
+  position: absolute;
+  width: 135px;
+  height: 33.91px;
+  background: #0180b3;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.652174px;
+  color: #ffffff;
+  border: none;
+  bottom: -18px;
+  left: 20px;
+}
