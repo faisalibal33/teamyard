@@ -1,0 +1,84 @@
+.whatIsTeamYardContainer {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  width: 1240px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+
+  .whatisleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span button {
+      width: 248px;
+      height: 60px;
+      left: 148px;
+      top: 1758px;
+      background: #0180b3;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      text-align: center;
+      letter-spacing: 1px;
+      color: $main-bg;
+      border: none;
+    }
+
+    .whatistext {
+      width: 379px;
+      height: 69px;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 63px;
+      color: #000000;
+    }
+
+    .whatisdesc {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      width: 490px;
+      height: 204px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+    }
+  }
+
+  .whatisright {
+    display: flex;
+    gap: 20px;
+
+    span img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .img1 {
+      width: 220px;
+      margin-top: 80px;
+    }
+
+    .img2 {
+      width: 220px;
+    }
+
+    .img3 {
+      position: relative;
+      width: 220px;
+      margin-top: 80px;
+      z-index: 1;
+    }
+
+    .blueDots {
+      position: absolute;
+      bottom: -40px;
+      left: -85px;
+      z-index: -1;
+    }
+  }
+}

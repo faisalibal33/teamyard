@@ -1,4 +1,3 @@
-import "./CompanyJoin.css";
 import group from "../../../assets/Group.svg";
 import group1 from "../../../assets/Group1.svg";
 import group2 from "../../../assets/Group2.svg";

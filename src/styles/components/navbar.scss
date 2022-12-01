@@ -1,0 +1,57 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  height: 92px;
+  background: $main-bg;
+  z-index: 100;
+
+  .navbarContainer {
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    width: 1240px;
+    height: 92px;
+    background: $main-bg;
+    z-index: 100;
+
+    .navbarLogo {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .navTag {
+      a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 27px;
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+        transition: 0.3s ease all;
+      }
+    }
+
+    .navButton {
+      button {
+        padding: 10px;
+        border: none;
+        width: 140px;
+        height: 46px;
+        background: #0990c6;
+        color: $main-bg;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        border-radius: 8px;
+      }
+    }
+  }
+}

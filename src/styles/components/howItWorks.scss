@@ -1,0 +1,244 @@
+.containerhiw {
+  background: rgba(1, 128, 179, 0.05);
+
+  .backHiw {
+    width: 99vw;
+    height: 92px;
+    background-color: white;
+  }
+
+  .howitworksContainer {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .howitworksTitle {
+      width: 242px;
+      height: 63px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 63px;
+      color: #000000;
+    }
+
+    .howitworksfirst {
+      display: flex;
+      justify-content: space-around;
+      gap: 100px;
+
+      .hiwleft {
+        .hiwleftbutton {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 343px;
+          height: 84px;
+          background: $main-bg;
+          box-shadow: 0px 4px 20px rgba(1, 128, 179, 0.1);
+          margin-bottom: 20px;
+
+          button {
+            width: 289.34px;
+            height: 46.54px;
+            background: $main-button;
+            border-radius: 3.87853px;
+            font-weight: 500;
+            font-size: 13.9627px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.775706px;
+            border: none;
+            color: $main-bg;
+          }
+        }
+
+        .hiwleftAskJoin {
+          width: 343px;
+          height: 166px;
+          background: $main-bg;
+          box-shadow: 0px 4px 20px rgba(1, 128, 179, 0.1);
+          padding: 20px;
+
+          .hremail {
+            width: 53px;
+            height: 24px;
+            font-weight: 400;
+            font-size: 12.3412px;
+            line-height: 23px;
+            color: #6a6a6a;
+          }
+
+          .hiwleftemail {
+            width: 289.25px;
+            height: 41.65px;
+            background: #f7f7f7;
+            border-radius: 3.85662px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+
+            p {
+              font-weight: 400;
+              font-size: 12.3412px;
+              line-height: 23px;
+              color: #000000;
+            }
+          }
+
+          .hiwleftButton {
+            button {
+              border: none;
+              width: 287.7px;
+              height: 46.28px;
+              background: $main-button;
+              border-radius: 3.85662px;
+              font-weight: 500;
+              font-size: 13.8838px;
+              line-height: 21px;
+              text-align: center;
+              letter-spacing: 0.771324px;
+              color: $main-bg;
+            }
+          }
+        }
+      }
+
+      .hiwCentral {
+        .hiwcenterbutton {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 15px;
+          width: 343px;
+          height: 84px;
+          background: $main-bg;
+          box-shadow: 0px 4px 20px rgba(1, 128, 179, 0.1);
+          margin-bottom: 20px;
+
+          button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 150.81px;
+            height: 43.89px;
+            background: $main-button;
+            border-radius: 5.62723px;
+            border: none;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 35px;
+            color: #f2f2f2;
+          }
+        }
+
+        .hiwcenterbox {
+          width: 343px;
+          height: 166px;
+          background: $main-bg;
+          box-shadow: 0px 4px 20px rgba(1, 128, 179, 0.1);
+          padding: 15px;
+
+          .hiwcenter1 {
+            display: flex;
+            gap: 20px;
+
+            .imghiwcenter {
+              display: flex;
+              padding-left: 20px;
+
+              span {
+                width: 46.67px;
+                height: 46.67px;
+                border: 50%;
+                margin-left: -15px;
+
+                .img1 {
+                  margin-left: 0px;
+                }
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .hiwRight {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+
+        .moreThan {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          justify-content: center;
+          width: 263px;
+          height: 84px;
+          background: $main-bg;
+          box-shadow: 0px 4px 20px rgba(1, 128, 179, 0.1);
+        }
+
+        .activitiesBox p {
+          width: 112px;
+          height: 43px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          letter-spacing: 0.791946px;
+          color: #000000;
+        }
+      }
+
+      .hiwBot {
+        margin-top: 30px;
+        margin-bottom: 60px;
+
+        p {
+          &:nth-child(1) {
+            width: 61px;
+            height: 63px;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 63px;
+            color: #000000;
+          }
+
+          &:nth-child(2) {
+            width: 305px;
+            height: 106px;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color: #474646;
+          }
+        }
+      }
+    }
+
+    .hiwButton {
+      width: 248px;
+      height: 60px;
+      background: $main-button;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      text-align: center;
+      letter-spacing: 1px;
+      color: $main-bg;
+      border: none;
+      margin-bottom: 100px;
+    }
+  }
+}

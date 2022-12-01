@@ -1,5 +1,4 @@
 import logo from "../../../assets/logoty.png";
-import "./footer.css";
 import { BsTwitter, BsFacebook, BsYoutube } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -7,23 +6,17 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footerContainer">
-      <div className="footerColomn">
+      <div className="footerColumn">
         <div className="footerLeft">
           <span>
             <img src={logo} alt="logo" />
           </span>
           <span>
-            <p className="footerSobscribeText">SUBSCRIBE TO OUR NEWSLETTER</p>
-            <p className="footerText">
-              Stay up-to-date with the latest from Teamyard!
-            </p>
+            <p className="footerSubscribeText">SUBSCRIBE TO OUR NEWSLETTER</p>
+            <p className="footerText">Stay up-to-date with the latest from Teamyard!</p>
           </span>
           <span>
-            <input
-              type="text"
-              placeholder="Email address"
-              className="footerInput"
-            />
+            <input type="text" placeholder="Email address" className="footerInput" />
             <button className="subscribeButton">SUBSCRIBE</button>
           </span>
         </div>

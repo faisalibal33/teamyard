@@ -1,4 +1,3 @@
-import "./howItWorks.css";
 import useradd from "../../../assets/userAdd.png";
 import Folder from "../../../assets/Folder.png";
 import youngman from "../../../assets/youngmansmall.png";
@@ -34,10 +33,10 @@ const HowItWorks = () => {
                   <button>Ask to join Teamyard </button>
                 </div>
               </div>
-              <div className="hiwBot">
-                <p>Join</p>
-                <p>Choose a plan and Invite your employees to join Teamyard.</p>
-              </div>
+            </div>
+            <div className="hiwBot">
+              <p>Join</p>
+              <p>Choose a plan and Invite your employees to join Teamyard.</p>
             </div>
           </div>
           <div>
@@ -83,10 +82,7 @@ const HowItWorks = () => {
             </div>
             <div className="hiwBot">
               <p>Connect</p>
-              <p>
-                Employees can suggest for invite another colleagues and create
-                events
-              </p>
+              <p>Employees can suggest for invite another colleagues and create events</p>
             </div>
           </div>
           <div>
@@ -109,8 +105,8 @@ const HowItWorks = () => {
             <div className="hiwBot">
               <p>Enjoy</p>
               <p>
-                Employees explore current events, join them or create new events
-                and invite colleagues.
+                Employees explore current events, join them or create new events and invite
+                colleagues.
               </p>
             </div>
           </div>

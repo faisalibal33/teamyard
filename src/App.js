@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ContactUs from "./Page/contactUs/ContactUs";
 import LandingPage from "./Page/landingPage/LandingPage";
+import "./styles/main.scss";
 
 const App = () => {
   return (
