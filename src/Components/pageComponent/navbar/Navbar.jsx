@@ -21,18 +21,18 @@ const Navbar = ({ landingScroll }) => {
             <img src={logo} alt="teamyardlogo" className="teamyardLogo" />
           </div>
           <span className="navTag">
-            <a href="#whatisteamyard">What is Teamyard</a>
+            <a href="/#whatisteamyard">What is Teamyard</a>
           </span>
           <span className="navTag">
-            <a href="#howitworks">How it works</a>
+            <a href="/#howitworks">How it works</a>
           </span>
           <span className="navTag">
-            <a href="#pricingPlan">Pricing plan</a>
+            <a href="/#pricingPlan">Pricing plan</a>
           </span>
           <span className="navTag">
             <a href="#benefits">Benefits</a>
           </span>
-          <Link to="contactus" style={{ textDecoration: "none" }}>
+          <Link to="/contactus" style={{ textDecoration: "none" }}>
             <span className="navTag">
               <a href="#">Contact us</a>
             </span>
