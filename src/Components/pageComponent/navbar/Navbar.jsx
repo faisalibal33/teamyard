@@ -37,9 +37,11 @@ const Navbar = ({ landingScroll }) => {
               <a href="#">Contact us</a>
             </span>
           </Link>
-          <span className="navButton">
-            <button>Sign In</button>
-          </span>
+          <Link to="signup">
+            <span className="navButton">
+              <button>Sign In</button>
+            </span>
+          </Link>
         </div>
       </div>
     </>
