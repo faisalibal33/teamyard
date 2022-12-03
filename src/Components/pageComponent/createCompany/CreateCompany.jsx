@@ -9,15 +9,12 @@ import img107 from "../../../assets/107.png";
 import img108 from "../../../assets/108.png";
 import img109 from "../../../assets/109.png";
 import img110 from "../../../assets/110.png";
-import "./createCompany.css";
 
 const CreateCompany = () => {
   return (
     <div className="createCompanyContainer">
       <div>
-        <p className="ccTitle">
-          Create your company on Teamyard and Invite colleagues
-        </p>
+        <p className="ccTitle">Create your company on Teamyard and Invite colleagues</p>
       </div>
       <div>
         <button className="ccButton">Start for Free</button>

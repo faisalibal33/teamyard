@@ -1,4 +1,3 @@
-import "./landingDisplay.css";
 import youngman from "../../../assets/youngman.png";
 import cheerfull from "../../../assets/cheerfull.png";
 import closefootball from "../../../assets/closefootball.png";
@@ -11,8 +10,8 @@ const LandingDisplay = () => {
       <div className="landingDisplayLeft">
         <span>
           <p className="textLandingLeft">
-            Transforming well being and team engagement at the work place
-            through team sports and activities
+            Transforming well being and team engagement at the work place through team sports and
+            activities
           </p>
           <button className="startForFreeButton">Start for free</button>
         </span>

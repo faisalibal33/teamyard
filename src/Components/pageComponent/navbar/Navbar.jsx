@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from "../../../assets/logoty.png";
-import "./Navbar.css";
 
 const Navbar = ({ landingScroll }) => {
   const goto = (ref) => {

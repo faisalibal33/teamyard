@@ -18,10 +18,11 @@
   gap: 5px;
 }
 
-.teamyardText {
+/*? class is not used */
+/* .teamyardText {
   font-weight: 700;
   font-size: 25px;
-}
+} */
 
 .navTag a {
   font-style: normal;

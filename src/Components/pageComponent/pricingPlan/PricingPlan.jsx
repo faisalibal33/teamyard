@@ -1,5 +1,3 @@
-import "./pricingPlan.css";
-
 const PricingPlan = () => {
   return (
     <div className="pricingContainer" id="pricingPlan">
@@ -32,8 +30,7 @@ const PricingPlan = () => {
           </div>
           <div>
             <p className="pricingtext">
-              Per person per month, when billed £9.75/person per month when
-              billed monthly
+              Per person per month, when billed £9.75/person per month when billed monthly
             </p>
           </div>
           <div className="priceDescBox">
@@ -53,8 +50,7 @@ const PricingPlan = () => {
           </div>
           <div>
             <p className="pricingtext">
-              Per person per month, when billed £7.75/person per month when
-              billed monthly
+              Per person per month, when billed £7.75/person per month when billed monthly
             </p>
           </div>
           <div className="priceDescBox">
@@ -74,8 +70,7 @@ const PricingPlan = () => {
           </div>
           <div>
             <p className="pricingtext">
-              Per person per month, when billed £7.75/person per month when
-              billed monthly
+              Per person per month, when billed £7.75/person per month when billed monthly
             </p>
           </div>
           <div className="priceDescBox">

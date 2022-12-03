@@ -1,5 +1,4 @@
 import { BsCheck2Circle } from "react-icons/bs";
-import "./benefits.css";
 import faxels from "../../../assets/faxels.png";
 import olia from "../../../assets/olia.png";
 
