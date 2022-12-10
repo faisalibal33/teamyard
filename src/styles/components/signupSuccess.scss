@@ -1,0 +1,36 @@
+.signupSuccessContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+
+  .title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 63px;
+  }
+
+  .description {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .emailRequest {
+    background: $main-button;
+    margin-top: 72px;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $main-bg;
+  }
+  .emailRequest:hover {
+    cursor: pointer;
+  }
+}
